@@ -267,10 +267,9 @@ figure {
   }
 
   .movie {
-    width: 33%;
+    width: 33.33333333333333333%;
     display: inline-block;
     float: left;
-
   }
 
   .movie-poster {
@@ -286,6 +285,12 @@ figure {
 
   .movie-overview {
     display: none;
+  }
+
+  .movie:first-child {
+    display: block;
+    width: 100%;
+
   }
 
   .movie:first-child .movie-poster {
