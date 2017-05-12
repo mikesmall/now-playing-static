@@ -276,7 +276,8 @@ figure {
   .movie-poster {
     display: inline-block;
     width: 100%;
-
+    float: left;
+    clear: both;
   }
 
   .movie-backdrop {
@@ -287,23 +288,39 @@ figure {
     display: none;
   }
 
-  /*article.movie:first-of-type {
-    width: 100%;
+  .movie:first-child .movie-poster {
+  display: none;
   }
 
-  img.movie-poster:first-of-type {
+  .movie:first-child .movie-backdrop {
+  display: block;
+  width: 100%;
+  float: left;
+  clear: both;
+  }
+
+  .movie:first-child .movie-overview {
+    display: inline-block;
+  }
+
+
+  /*article.movie:first-child {
+    width: 100%;
+    position: relative;
+  }
+
+  img.movie-poster:first-child {
     display: none;
   }
 
-  img.movie-backdrop:first-of-type {
+  img.movie-backdrop:first-child {
     display: block;
     width: 100%;
   }
 
-  p.movie-overview:first-of-type {
+  p.movie-overview:first-child {
     display: inline-block;
-  }*/
+  }
 
-
-
+}*/
 }
