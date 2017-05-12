@@ -112,6 +112,10 @@ figure {
   display: block;
 }
 
+.movie-backdrop {
+  width: 100%;
+}
+
 /*
   Hide the poster on mobile devices, only show backdrop
   TIP: Use media queries to reveal it on larger devices
@@ -249,7 +253,7 @@ figure {
 }
 
 @media screen and (min-width: 992px) {
-  
+
 
 
 
