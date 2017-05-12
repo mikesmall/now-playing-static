@@ -203,6 +203,11 @@ figure {
 }
 
 @media screen and (min-width: 768px) {
+
+  main {
+    margin-left: 80px;
+  }
+
   .site-logo {
     width: 50px;
     z-index: 2;
@@ -211,6 +216,7 @@ figure {
     top: 14px;
     left: 14px;
   }
+
   .site-nav {
     position: fixed;
     top: 0;
@@ -219,9 +225,10 @@ figure {
     z-index: 1;
     width: 80px;
     float: left;
-    background-color: grey;
+    background-color: rgb(240,240,240);
     text-align: center;
   }
+
   .site-nav-list {
     margin-top: 80px;
     position: relative;
@@ -230,6 +237,7 @@ figure {
     overflow: auto;
     text-align: center;
   }
+
   .site-nav-item {
     z-index: 2;
     clear: both;
@@ -239,14 +247,13 @@ figure {
     margin-top: 10px;
     width: 100%;
   }
+
   .fa {
     margin-left: 0 auto;
     margin-right: 0 auto;
     text-align: center;
   }
-  main {
-    margin-left: 80px;
-  }
+
   .movie-overview {
     display: inline-block;
   }
@@ -254,6 +261,48 @@ figure {
 
 @media screen and (min-width: 992px) {
 
+  main {
+    display: block;
+    overflow: hidden;
+  }
+
+  .movie {
+    width: 33%;
+    display: inline-block;
+    float: left;
+
+  }
+
+  .movie-poster {
+    display: inline-block;
+    width: 100%;
+
+  }
+
+  .movie-backdrop {
+    display: none;
+  }
+
+  .movie-overview {
+    display: none;
+  }
+
+  /*article.movie:first-of-type {
+    width: 100%;
+  }
+
+  img.movie-poster:first-of-type {
+    display: none;
+  }
+
+  img.movie-backdrop:first-of-type {
+    display: block;
+    width: 100%;
+  }
+
+  p.movie-overview:first-of-type {
+    display: inline-block;
+  }*/
 
 
 
