@@ -100,6 +100,8 @@ figure {
 }
 
 
+
+
 /* MOVIE styles */
 .movie {
   position: relative;
@@ -194,4 +196,61 @@ figure {
 
 .about > p {
   margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .site-logo {
+    width: 50px;
+    z-index: 2;
+    position: fixed;
+    float: left;
+    top: 14px;
+    left: 14px;
+  }
+  .site-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+    width: 80px;
+    float: left;
+    background-color: grey;
+    text-align: center;
+  }
+  .site-nav-list {
+    margin-top: 80px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    text-align: center;
+  }
+  .site-nav-item {
+    z-index: 2;
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .fa {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    text-align: center;
+  }
+  main {
+    margin-left: 80px;
+  }
+  .movie-overview {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  
+
+
+
 }
